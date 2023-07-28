@@ -23,38 +23,38 @@ const Sidebar = () => {
            </span>
       </div>
       <ul className={`${vis} flex-col gap-3`}>
-        <Link className="flex items-center gap-2" to="/Goujil-frontend/dashboard">
+        <Link className="flex items-center gap-2" to="/">
           <BsFillBarChartFill />
           احصائيات
         </Link>
-        <Link className="flex items-center gap-2" to="/Goujil-frontend/products">
+        <Link className="flex items-center gap-2" to="products">
           <BsBoxSeam />
           المنتجات
         </Link>
-        <Link className="flex items-center gap-2" to="/Goujil-frontend/stocks">
+        <Link className="flex items-center gap-2" to="stocks">
           <CiBoxes />
           الشراء
         </Link>
 
-        <Link className="flex items-center gap-2" to="/Goujil-frontend/historique">
+        <Link className="flex items-center gap-2" to="historique">
           <CiBoxes />
           المشتريات
         </Link>
 
-        <Link className="flex items-center gap-2" to="/Goujil-frontend/customers">
+        <Link className="flex items-center gap-2" to="customers">
           <CiUser />
           الزبائن
         </Link>
-        <Link className="flex items-center gap-2" to="/Goujil-frontend/suppliers">
+        <Link className="flex items-center gap-2" to="suppliers">
           <BsTruck />
          الموردون
         </Link>
 
-        <Link className="flex items-center gap-2" to="/Goujil-frontend/vents">
+        <Link className="flex items-center gap-2" to="vents">
           <BsTruck />
           المبيعات
         </Link>
-        <Link className="flex items-center gap-2" to="/Goujil-frontend/sell">
+        <Link className="flex items-center gap-2" to="sell">
           <BsTruck />
           بيع
         </Link>
