@@ -61,7 +61,7 @@ const Sidebar = () => {
       </ul>
       <hr className={`${vis} border border-white `} />
       <ul  className={`${vis} flex flex-col gap-3`}>
-        <Link className="flex items-center gap-2" to="/sellers">
+        <Link className="flex items-center gap-2" to="sellers">
           <FiUserCheck />
           الشحن اليومي
         </Link>
