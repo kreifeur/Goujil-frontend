@@ -23,45 +23,45 @@ const Sidebar = () => {
            </span>
       </div>
       <ul className={`${vis} flex-col gap-3`}>
-        <Link className="flex items-center gap-2" to="/">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/">
           <BsFillBarChartFill />
           احصائيات
         </Link>
-        <Link className="flex items-center gap-2" to="products">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/products">
           <BsBoxSeam />
           المنتجات
         </Link>
-        <Link className="flex items-center gap-2" to="stocks">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/stocks">
           <CiBoxes />
           الشراء
         </Link>
 
-        <Link className="flex items-center gap-2" to="historique">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/historique">
           <CiBoxes />
           المشتريات
         </Link>
 
-        <Link className="flex items-center gap-2" to="customers">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/customers">
           <CiUser />
           الزبائن
         </Link>
-        <Link className="flex items-center gap-2" to="suppliers">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/suppliers">
           <BsTruck />
          الموردون
         </Link>
 
-        <Link className="flex items-center gap-2" to="vents">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/vents">
           <BsTruck />
           المبيعات
         </Link>
-        <Link className="flex items-center gap-2" to="sell">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/sell">
           <BsTruck />
           بيع
         </Link>
       </ul>
       <hr className={`${vis} border border-white `} />
       <ul  className={`${vis} flex flex-col gap-3`}>
-        <Link className="flex items-center gap-2" to="sellers">
+        <Link className="flex items-center gap-2" to="/Goujil-frontend/sellers">
           <FiUserCheck />
           الشحن اليومي
         </Link>
