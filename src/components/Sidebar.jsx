@@ -23,7 +23,7 @@ const Sidebar = () => {
            </span>
       </div>
       <ul className={`${vis} flex-col gap-3`}>
-        <Link className="flex items-center gap-2" to="/">
+        <Link className="flex items-center gap-2" to="/dashboard">
           <BsFillBarChartFill />
           احصائيات
         </Link>
