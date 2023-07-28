@@ -26,15 +26,15 @@ const App = () => {
 
           {/* les routes */}
           <Routes>
-            <Route path="dashboard" element={<Dashboard />}></Route>
-            <Route path="/products" element={<Products />}></Route>
-            <Route path="/customers" element={<Customers />}></Route>
-            <Route path="/stocks" element={<Buy />}></Route>
-            <Route path="/suppliers" element={<Suppliers />}></Route>
-            <Route path="/historique" element={<Mabiaat/>}></Route>y
-            <Route path="/vents" element={<LesVents/>}></Route>
-            <Route path="/sellers" element={<Camions/>}></Route>
-            <Route path="/sell" element={<Sell/>}></Route>
+            <Route path="/Goujil-frontend/dashboard" element={<Dashboard />}></Route>
+            <Route path="/Goujil-frontend/products" element={<Products />}></Route>
+            <Route path="/Goujil-frontend/customers" element={<Customers />}></Route>
+            <Route path="/Goujil-frontend/stocks" element={<Buy />}></Route>
+            <Route path="/Goujil-frontend/suppliers" element={<Suppliers />}></Route>
+            <Route path="/Goujil-frontend/historique" element={<Mabiaat/>}></Route>y
+            <Route path="/Goujil-frontend/vents" element={<LesVents/>}></Route>
+            <Route path="/Goujil-frontend/sellers" element={<Camions/>}></Route>
+            <Route path="/Goujil-frontend/sell" element={<Sell/>}></Route>
           </Routes>
 
           <Footer />
